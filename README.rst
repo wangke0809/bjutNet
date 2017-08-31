@@ -1,4 +1,4 @@
-###📦 bjutNet
+###bjutNet
 
 连接北工大校园网的SDK
 
@@ -7,23 +7,23 @@
     $ pip install bjutNet
 
 ###使用
-```python
-from bjutNet import bjutNet
 
-net = bjutNet('<id>', '<pass>')
+    from bjutNet import bjutNet
 
-#可选ipv4/ipv6/ipv46，均返回逻辑类型
-net.login_ipv4()
-net.login_ipv6()
-net.login_ipv46()
+    net = bjutNet('<id>', '<pass>')
 
-#认证成功后可查看账户信息
-time,flow,fee = net.get_account_info()
-print("已用时长 %s 小时 , 已用流量 %s MB , 余额 %s 元"%(time,flow,fee))
+    #可选ipv4/ipv6/ipv46，均返回逻辑类型
+    net.login_ipv4()
+    net.login_ipv6()
+    net.login_ipv46()
 
-#统一退出接口
-net.logout()
-```
+    #认证成功后可查看账户信息
+    time,flow,fee = net.get_account_info()
+    print("已用时长 %s 小时 , 已用流量 %s MB , 余额 %s 元"%(time,flow,fee))
+
+    #统一退出接口
+    net.logout()
+
 ###高级用法
 ```python
 #默认开启debug，可配置为关闭，关闭后不在输出错误信息
