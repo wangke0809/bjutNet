@@ -26,6 +26,7 @@
     #认证成功后可查看账户信息
     
     time,flow,fee = net.get_account_info()
+    
     print("已用时长 %s 小时 , 已用流量 %s MB , 余额 %s 元"%(time,flow,fee))
 
     #统一退出接口
@@ -47,3 +48,5 @@
 ------
 
 .. image:: https://raw.githubusercontent.com/wangke0809/bjutNet/master/wx.png
+
+原来不是markdown...
