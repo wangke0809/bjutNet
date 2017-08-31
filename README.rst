@@ -17,9 +17,11 @@
 
     #可选ipv4/ipv6/ipv46，均返回逻辑类型
     
-    net.login_ipv4()
-    net.login_ipv6()
-    net.login_ipv46()
+    net.login_ipv4() 
+    
+    net.login_ipv6() 
+    
+    net.login_ipv46() 
 
     #认证成功后可查看账户信息
     
