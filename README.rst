@@ -40,10 +40,3 @@
     
     #关闭后，在登录返回False之后接着调用此函数主动查看错误信息
     print(net.get_debug_info())
-
-我的微信
-====
-
-.. image:: https://raw.githubusercontent.com/wangke0809/bjutNet/master/wx.png
-
-原来不是markdown...
